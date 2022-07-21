@@ -57,7 +57,7 @@ a {
 
 i {
   text-align: center;
-  width: 15px;
+  min-width: 15px;
 }
 
 section {
