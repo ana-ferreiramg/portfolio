@@ -1,0 +1,28 @@
+@import './info__perfil.css';
+@import './info__contact.css';
+@import './info__technology.css';
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+}
+
+.info section + section {
+  margin-top: 20px;
+}
+
+.info ul li i {
+  margin-right: 10px;
+  font-size: 1.6rem;
+}
+
+.info li + li {
+  margin-top: 12px;
+}
+
+.info__experiences ul,
+.info__education ul {
+  list-style: disc;
+  margin-left: 35px;
+}

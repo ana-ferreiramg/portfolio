@@ -1,0 +1,88 @@
+@import './partials/aside/aside.css';
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+  --border-img: #00ff00;
+
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+body {
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: var(--body-bg-color);
+}
+
+body .container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  text-align: center;
+  width: 15px;
+}
+
+section {
+  background-color: var(--bg-cards);
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  margin-left: 50px;
+  max-width: 70%;
+}
+
+img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+footer i {
+  color: red;
+}
+
+section,
+aside,
+main,
+.my-projects__title,
+.my-projects__content,
+.card {
+  border-radius: 12px;
+}

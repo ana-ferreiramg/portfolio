@@ -1,0 +1,12 @@
+.info__perfil {
+  text-align: center;
+}
+
+.info__perfil h1 {
+  margin-bottom: 10px;
+}
+
+.info__perfil img {
+  margin-bottom: 20px;
+  border: 3px solid var(--border-img);
+}
