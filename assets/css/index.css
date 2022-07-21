@@ -1,4 +1,5 @@
 @import './partials/aside/aside.css';
+@import './partials/main/main.css';
 
 :root {
   --body-bg-color: #22212c;
@@ -17,11 +18,12 @@
 
 body {
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   background-color: var(--body-bg-color);
+  max-width: 1200px;
 }
 
 body .container {
@@ -63,10 +65,8 @@ section {
   padding: 20px;
 }
 
-main {
-  flex: 1;
-  margin-left: 50px;
-  max-width: 70%;
+section + section {
+  margin-top: 20px;
 }
 
 img {
@@ -74,8 +74,14 @@ img {
   border-radius: 50%;
 }
 
+footer span {
+  display: block;
+  text-align: center;
+}
+
 footer i {
   color: red;
+  margin-top: 20px;
 }
 
 section,
@@ -85,4 +91,10 @@ main,
 .my-projects__content,
 .card {
   border-radius: 12px;
+}
+
+@media (min-width: 750px) {
+  body {
+    padding: 30px;
+  }
 }

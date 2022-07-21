@@ -1,15 +1,11 @@
-.info__contact ul li {
-  list-style: none;
-}
-
 @media (min-width: 750px) {
-  .info__contact {
+  .info__experiences {
     width: 45%;
   }
 }
 
 @media (min-width: 1000px) {
-  .info__contact {
+  .info__experiences {
     width: 100%;
   }
 }

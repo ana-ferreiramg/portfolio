@@ -1,0 +1,22 @@
+main {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.my-projects__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.my-projects__title h2 {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1000px) {
+  main {
+    margin-top: 0;
+    margin-left: 50px;
+  }
+}

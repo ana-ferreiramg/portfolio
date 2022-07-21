@@ -1,0 +1,11 @@
+@media (min-width: 750px) {
+  .info__education {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .info__education {
+    width: 100%;
+  }
+}
