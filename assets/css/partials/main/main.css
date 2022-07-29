@@ -1,5 +1,5 @@
-@import './my-projects.css';
-@import './recents-posts.css';
+@import '/my-projects.css';
+@import '/recents-posts.css';
 
 main {
   flex: 1;
