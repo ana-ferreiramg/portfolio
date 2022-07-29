@@ -1,8 +1,8 @@
-@import './info__perfil.css';
-@import './info__contact.css';
-@import './info__technology.css';
-@import './info__experiences.css';
-@import './info__education.css';
+@import 'info__perfil.css';
+@import 'info__contact.css';
+@import 'info__technology.css';
+@import 'info__experiences.css';
+@import 'info__education.css';
 
 .info {
   display: flex;
