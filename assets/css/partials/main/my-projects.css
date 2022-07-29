@@ -66,13 +66,3 @@
 .card .card__footer p + p {
   margin-left: 20px;
 }
-
-@media (min-width: 750px) {
-  .my-projects__content .card {
-    width: 48%;
-  }
-
-  .card + .card {
-    margin-top: 0;
-  }
-}

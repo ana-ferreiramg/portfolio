@@ -60,13 +60,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-@media (min-width: 750px) {
-  .recents-posts__content .card {
-    width: 48%;
-  }
-
-  .card + .card {
-    margin-top: 0;
-  }
-}

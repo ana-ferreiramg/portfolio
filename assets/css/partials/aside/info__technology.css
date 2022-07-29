@@ -15,15 +15,3 @@ span.badge {
   font-size: 1rem;
   margin: 0 5px 15px 0;
 }
-
-@media (min-width: 750px) {
-  .info__technology {
-    width: 48%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .info__technology {
-    width: 100%;
-  }
-}

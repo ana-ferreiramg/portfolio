@@ -1,14 +1,7 @@
-@import 'my-projects.css';
-@import 'recents-posts.css';
+@import './my-projects.css';
+@import './recents-posts.css';
 
 main {
   flex: 1;
   margin-top: 20px;
-}
-
-@media (min-width: 1000px) {
-  main {
-    margin-top: 0;
-    margin-left: 50px;
-  }
 }

@@ -1,8 +1,6 @@
-@import 'info__perfil.css';
-@import 'info__contact.css';
-@import 'info__technology.css';
-@import 'info__experiences.css';
-@import 'info__education.css';
+@import './info__perfil.css';
+@import './info__contact.css';
+@import './info__technology.css';
 
 .info {
   display: flex;
@@ -23,18 +21,4 @@
 .info__education ul {
   list-style: disc;
   margin-left: 35px;
-}
-
-@media (min-width: 750px) {
-  .info {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 1000px) {
-  .info {
-    max-width: 350px;
-  }
 }

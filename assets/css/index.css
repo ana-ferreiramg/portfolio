@@ -1,5 +1,5 @@
-@import '/partials/aside/aside.css';
-@import '/partials/main/main.css';
+@import './partials/aside/aside.css';
+@import './partials/main/main.css';
 
 :root {
   --body-bg-color: #22212c;
@@ -96,10 +96,4 @@ main,
 
 .card {
   cursor: pointer;
-}
-
-@media (min-width: 750px) {
-  body {
-    padding: 30px;
-  }
 }

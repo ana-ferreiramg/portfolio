@@ -1,15 +1,3 @@
 .info__contact ul li {
   list-style: none;
 }
-
-@media (min-width: 750px) {
-  .info__contact {
-    width: 48%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .info__contact {
-    width: 100%;
-  }
-}
