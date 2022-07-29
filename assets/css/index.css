@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   background-color: var(--body-bg-color);
   max-width: 1200px;
@@ -34,15 +34,15 @@ body .container {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
