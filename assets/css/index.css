@@ -1,5 +1,5 @@
-@import '/partials/aside/aside.css';
-@import '/partials/main/main.css';
+@import 'partials/aside/aside.css';
+@import 'partials/main/main.css';
 
 :root {
   --body-bg-color: #22212c;
